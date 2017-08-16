@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="war.api.impl.TestDefaultHelloService" time="6.37" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/alisewiseman/dev/tomcat-sample"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/alisewiseman/dev/tomcat-sample"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_5/_cw104x13bxcmfd5c8wmdh258n9lh4/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/apache-maven-3.5.0/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/alisewiseman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/apache-maven-3.5.0/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="library.jansi.path" value="/opt/apache-maven-3.5.0/lib/jansi-native/osx64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/alisewiseman"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="alisewiseman"/>
+    <property name="java.class.path" value="/opt/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Pchrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/alisewiseman/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/apache-maven-3.5.0"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="war.api.impl.TestDefaultHelloService" name="testSayHello" time="6.37">
+    <error type="org.apache.cxf.jaxrs.client.ServerWebApplicationException:">org.apache.cxf.jaxrs.client.ServerWebApplicationException: 
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:278)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:575)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:544)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:205)
+	at com.sun.proxy.$Proxy20.sayHello(Unknown Source)
+	at war.api.impl.TestDefaultHelloService.testSayHello(TestDefaultHelloService.java:99)
+</error>
+    <system-out>Tomcat started on port:61453
+</system-out>
+    <system-err>May 31, 2017 9:05:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-bio-auto-1&quot;]
+May 31, 2017 9:05:29 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+May 31, 2017 9:05:29 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/jsp_2_2.xsd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+May 31, 2017 9:05:30 AM org.apache.catalina.startup.DigesterFactory register
+WARNING: Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+May 31, 2017 9:05:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+May 31, 2017 9:05:30 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+May 31, 2017 9:05:30 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed May 31 09:05:30 MDT 2017]; root of context hierarchy
+May 31, 2017 9:05:30 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:/Users/alisewiseman/dev/tomcat-sample/tomcat-sample-api-impl/target/classes/META-INF/spring-context.xml]
+May 31, 2017 9:05:30 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+May 31, 2017 9:05:30 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+May 31, 2017 9:05:30 AM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 &apos;javax.annotation.ManagedBean&apos; found and supported for component scanning
+May 31, 2017 9:05:30 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.&lt;init&gt;(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:298)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:300)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:300)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:153)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:130)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:285)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:223)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 31, 2017 9:05:30 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.&lt;init&gt;(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:298)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:300)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:300)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:153)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:130)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:285)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:223)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 31, 2017 9:05:30 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+May 31, 2017 9:05:30 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+May 31, 2017 9:05:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+May 31, 2017 9:05:30 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed May 31 09:05:30 MDT 2017]; root of context hierarchy
+May 31, 2017 9:05:30 AM org.springframework.context.support.AbstractApplicationContext doClose
+WARNING: Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call &apos;refresh&apos; before multicasting events via the context: Root WebApplicationContext: startup date [Wed May 31 09:05:30 MDT 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:334)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1010)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:549)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:143)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4980)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5626)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 31, 2017 9:05:30 AM org.springframework.context.support.AbstractApplicationContext doClose
+WARNING: Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call &apos;refresh&apos; before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Wed May 31 09:05:30 MDT 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1010)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:549)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:143)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4980)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5626)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 31, 2017 9:05:30 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6793e5e6: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,helloService#default,testServices,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+May 31, 2017 9:05:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-bio-auto-1-61453&quot;]
+May 31, 2017 9:05:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-bio-auto-1-61453&quot;]
+May 31, 2017 9:05:31 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Tomcat
+May 31, 2017 9:05:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-bio-auto-1-61453&quot;]
+</system-err>
+  </testcase>
+</testsuite>
